@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  color: #ff5733;
+  /* Hot orange-red */
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  /* Dynamic font size */
+}
+
+.Trending,
+.Search,
+.Emoji {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ff5733;
+
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5733;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+
+  .gif-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .gif-list img {
+    margin: 10px;
+    max-width: 200px;
+    max-height: 200px;
+  }
